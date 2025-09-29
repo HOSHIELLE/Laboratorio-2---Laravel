@@ -58,6 +58,27 @@ Pantalla de inicio funcionando:
 
 ### Dificultades encontradas y solución
 
+1. **Abrir la opción de Registro**
+![Pantalla de Error](Dificultades/Error1.png)
+- **Contexto:** El mismo servidor me estaba diciendo que al abrir “Registrar” no me estaba encontrando el archivo
+- **Solución:** Tuve que cambiar la dirección del archivo, en vez de que sea scss, se cambió a css
+![Pantalla de Solución](Dificultades/Solucion1.png)
+
+2. **El CSS para Registrar, Login y el registro exitoso**
+![Pantalla de Error](Dificultades/Error2.png)
+- **Contexto:** Estaba bastante simple y feo cómo te estaba dando las opciones por default, entonces también por la cantidad de archivos era complicado buscar a cuál había que implementarle el css
+- **Solución:** Tuve que cambiar consultar con una inteligencia artificial cuál era el archivo que tenía que implementarle el .css porque también el php era el único que reconocía los cambios y no el archivo css, es por esto que tuve que hacerle demasiados testeos, cambios y consultas.
+
+3. **Dashboard 404 NOT FOUND**
+![Pantalla de Error](Dificultades/Error3.png)
+- **Contexto:** Llevaba tanto tiempo cambiando los css porque siempre me tiraba un error en el diseño (sobre todo en la barra de navegación) que llegó un punto que al cambiar tanto el archivo php, hubo un cambio que empezó a tirarme 404 NOT FOUND. Porque me estaba redirigiendo a Dashboard.
+- **Solución:**  Volver a cambiar todo el login, crear el css de nuevo y la información porque en vez de salirme las opciones de Registro y Login como tenía anteriormente, sólo me aparecía la opción de Dashboard y son otros minutos valiosos que perdí en solucionar esto.
+
+4. **Registro del nombre en nulo**
+![Pantalla de Error](Dificultades/Error4.png)
+- **Contexto:** Como estaba cambiando todo para que me corriera y el formulario me quedara bonito, tenía en mi código que el nombre se estaba registrando como nulo.
+- **Solución:**  Nuevamente volver a cambiar todos los códigos buscando lo que tenían “Auth: user()” y me estaba tomando el valor como nulo (en la imagen se puede apreciar) también porque el mismo Servidor me estaba diciendo que en archivo se encontraba el error.
+
 ### Referencias
 
 ### Conclusiones y aprendizajes
