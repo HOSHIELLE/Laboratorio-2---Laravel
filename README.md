@@ -45,16 +45,16 @@ php artisan serve     # iniciar el servidor de Laravel
 
 ### Resultado del laboratorio
 Pantalla de bienvenida funcionando: 
-![Pantalla de Bienvenida](IMGREADME/Bienvenida.png)
+![Pantalla de Bienvenida](Imagenes/Bienvenida.png)
 
 Pantalla del login funcionando: 
-![Pantalla de login](IMGREADME/Login.png)
+![Pantalla de login](Imagenes/Login.png)
 
 Pantalla de registro funcionando: 
-![Pantalla de Registro](IMGREADME/Registro.png)
+![Pantalla de Registro](Imagenes/Registro.png)
 
 Pantalla de inicio funcionando: 
-![Pantalla de Inicio](IMGREADME/Inicio.png)
+![Pantalla de Inicio](Imagenes/Inicio.png)
 
 ### Dificultades encontradas y solución
 
