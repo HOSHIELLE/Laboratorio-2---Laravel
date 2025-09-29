@@ -80,13 +80,24 @@ Pantalla de inicio funcionando:
 - **Solución:**  Nuevamente volver a cambiar todos los códigos buscando lo que tenían “Auth: user()” y me estaba tomando el valor como nulo (en la imagen se puede apreciar) también porque el mismo Servidor me estaba diciendo que en archivo se encontraba el error.
 
 ### Referencias
+1. Installation - LaRavel 12.X - the PHP framework for web Artisans. (n.d.). Retrieved from https://laravel.com/docs/12.x/installation
 
+2. Laravel tutorial. (n.d.). Retrieved from https://www.tutorialspoint.com/laravel/index.htm
+
+3. Starter Kits - LaRavel 11.X - The PHP Framework for web Artisans. (n.d.). Retrieved from https://laravel.com/docs/11.x/starter-kits
+
+4. Configuration - LaRavel 12.X - the PHP framework for web artisans. (n.d.). Retrieved from https://laravel.com/docs/12.x/configuration
+
+5. Database: Migrations - LaRavel 12.X - the PHP framework for web artisans. (n.d.). Retrieved from https://laravel.com/docs/12.x/migrations
+   
 ### Conclusiones y aprendizajes
+Este laboratorio me permitió comprender de una manera más clara el ciclo de vida de una petición en Laravel y cómo el framework gestiona cada paso, desde que el usuario envía una solicitud hasta que recibe una respuesta. También me ayudó a familiarizarme con la estructura de directorios que utiliza Laravel, entendiendo la función de carpetas como app, routes, resources y config, lo cual me dio una visión más organizada de cómo se construye una aplicación. Además, pude reconocer la importancia de una buena configuración del entorno, especialmente en lo referente al archivo .env, ya que allí se centralizan datos sensibles como la conexión a la base de datos o las claves de la aplicación.
+
+Trabajar con Laravel me permitió experimentar de primera mano la utilidad de comandos como los de artisan, que agilizan la creación de controladores, migraciones y otras funcionalidades. 
 
 ### Información del estudiante
 Nombre: Stephany Chong
 Correo: stephany.chong@utp.ac.pa
 Curso: Ingeniería Web
 Instructor: Ing. Irina Fong
-Fecha de ejecución: 28/09/2025
-
+Fecha de ejecución: 14/09/2025
