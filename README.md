@@ -22,7 +22,6 @@ En este trabajo se busca:
 ## Instalación y Configuración
 
 1. Instalar dependencias del proyecto
-Esto es lo primero que se hace cuando se abre un proyecto Laravel.
 - composer install
    
 2. Configurar el archivo .env
