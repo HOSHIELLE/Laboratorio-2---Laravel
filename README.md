@@ -23,25 +23,25 @@ En este trabajo se busca:
 
 1. Instalar dependencias del proyecto
 Esto es lo primero que se hace cuando se abre un proyecto Laravel.
-    composer install
+- composer install
    
 2. Configurar el archivo .env
-    cp .env.example .env
-    php artisan key:generate
+- cp .env.example .env
+- php artisan key:generate
 
 3. Instalar el paquete de autenticación
-    composer require laravel/ui
-    php artisan ui bootstrap --auth
-    npm install && npm run dev
+- composer require laravel/ui
+- php artisan ui bootstrap --auth
+- npm install && npm run dev
 
 4. Migraciones
-    php artisan migrate # (tener el servidor de BD encendido)
+- php artisan migrate # (tener el servidor de BD encendido)
 
 5. Pasos de configuración adicionales
-php artisan config:clear
-php artisan config:cache
-php artisan view:clear
-php artisan serve     # iniciar el servidor de Laravel
+- php artisan config:clear
+- php artisan config:cache
+- php artisan view:clear
+- php artisan serve     # iniciar el servidor de Laravel
 
 ### Resultado del laboratorio
 Pantalla de bienvenida funcionando: 
@@ -96,8 +96,8 @@ Este laboratorio me permitió comprender de una manera más clara el ciclo de vi
 Trabajar con Laravel me permitió experimentar de primera mano la utilidad de comandos como los de artisan, que agilizan la creación de controladores, migraciones y otras funcionalidades. 
 
 ### Información del estudiante
-Nombre: Stephany Chong
-Correo: stephany.chong@utp.ac.pa
-Curso: Ingeniería Web
-Instructor: Ing. Irina Fong
-Fecha de ejecución: 14/09/2025
+- Nombre: Stephany Chong
+- Correo: stephany.chong@utp.ac.pa
+- Curso: Ingeniería Web
+- Instructor: Ing. Irina Fong
+- Fecha de ejecución: 14/09/2025
